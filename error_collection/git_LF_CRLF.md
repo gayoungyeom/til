@@ -9,7 +9,7 @@ warning: LF will be replaced by CRLF in project/django/conf...
 The file will have its original line endings in your working directory
 ```
 
-![error_img](./git_err_lf.png)
+![error_img](./img/git_err_lf.png)
 
 맥/ 리눅스 환경과 윈도우의 환경이 달라 발생하는 `Whitespace` 에러라고 한다.<br>
 유닉스 시스템에서는 한 라인의 끝이 LF(Line Feed)로 이루어지는 반면, 윈도우에서는 한 라인이 CR(Carriage Return)과 LF(Line Feed), 즉 CRLF로 이루어지기 때문이다. Git이 어떤 시스템을 따라야 할 지 몰라서 내는 에러라고 보면 된다.
@@ -36,7 +36,7 @@ git config --global core.autocrlf true
 git config --global core.autocrlf false
 ```
 
-![sol_img](./git_err_lf_sol.png)
+![sol_img](./img/git_err_lf_sol.png)
 git add가 정상적으로 동작한다.
 
 ## Reference
