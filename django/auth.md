@@ -25,7 +25,7 @@ But, `장고는 비밀번호의 강도 검사`, `로그인 시도 제한`, `타�
 
 ## 🍞사용법
 
-- [Using Django's default implementation](https://docs.djangoproject.com/en/3.1/topics/auth/default/#user-objects)
+- [Using Django's default implementation](auth_using.md)
   - Working with User objects
   - Permissions and authorization
   - Authentication in web request
@@ -36,4 +36,4 @@ But, `장고는 비밀번호의 강도 검사`, `로그인 시도 제한`, `타�
 
 ## 📌Reference
 
-https://docs.djangoproject.com/en/3.1/topics/auth/#usage
+https://docs.djangoproject.com/en/3.1/topics/auth/
